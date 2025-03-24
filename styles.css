@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+main {
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.scanner-options {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+.option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+}
+
+.option button {
+    margin-bottom: 1rem;
+}
+
+.option img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#scan-report {
+    text-align: center;
+}
+
+#report-content {
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
