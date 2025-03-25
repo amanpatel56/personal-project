@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Management Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Patel Security Management & Advising</h1>
+    </header>
+    
+    <main>
+        <section class="scanner-options">
+            <div class="option">
+                <button onclick="window.location.href='password_security.html'">Password Security</button>
+                <img src="password_security_image.jpg" alt="Password Security">
+            </div>
+            <div class="option">
+                <button onclick="window.location.href='web_scanner.html'">Web Scanner</button>
+                <img src="web_scanner_image.jpg" alt="Web Scanner">
+            </div>
+        </section>
+
+        <section id="scan-report">
+            <h2>Latest Scan Report</h2>
+            <div id="report-content">No report available</div>
+        </section>
+    </main>
+</body>
+</html>
